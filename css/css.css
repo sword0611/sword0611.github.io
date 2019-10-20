@@ -1,0 +1,190 @@
+/*Soon to be slideshow*/
+@import "core/bootstrap/rfs";
+
+body {
+  background: url('https://wallpaperplay.com/walls/full/3/0/7/17345.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+
+/*Navigation bar*/
+.navbar {
+  background-color:rgba(100, 100, 100, 0);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, 0%);
+  z-index: 50;
+  width: 100%;
+       
+}
+
+.navbar-logo{
+  color: #00AEFF;
+  font-family:Verdana, sans-serif;
+  font-size: 27px;
+}
+
+.nav-link{
+  color: rgb(255, 255, 255); 
+  transform: translate(60%, 0%);
+  font-size: 20px;
+  list-style-type:none;
+  margin-right: 20px;
+}
+
+.navbar-toggler{
+  color: cornsilk; 
+}
+
+.navbar-toggler-icon{
+  color: #818181;
+  
+}
+
+.blurring{
+  background-color:rgba(255, 0, 0, 0);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid gray;
+}
+
+
+
+
+
+/* The sidepanel menu */
+.sidepanel {
+  height: 250px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #151A23; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */  
+}
+  
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+  
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+#navbarDropdownMenuLink {
+  position: static;
+  left: 5%;
+}
+  
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.textsidepanel{
+  color: #f1f1f1;
+  border-bottom: 1px solid gray;
+}
+
+.textsidepanel{
+  color: #f1f1f1; 
+}
+
+#logosidepanel{
+  z-index: 1;
+  color: #00AEFF;
+  top: 0;
+  border-bottom: 1px solid gray;
+}
+
+#carouselExampleControls {
+  z-index:10;
+  -webkit-transform:translate(0%, 0%);
+  -ms-transform:translate(0%, 0%);
+  transform:translate(0%, 0%);
+}
+    
+@media (max-width: 768px) {
+  nav.navbar {
+    background: #151A23;
+  }
+}
+
+@media (max-width: 768px) {
+  #carouselExampleControls {
+    -webkit-transform:translate(0%, 0%);
+    -ms-transform:translate(0%, 0%);
+    transform:translate(0%, 40%);
+  }
+}
+
+#blue1 {
+  position: relative;
+  transform: 100%;
+}
+
+.card {
+  background-color:rgba(255, 0, 0, 0);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgb(71, 71, 71);
+  width: 45%;
+  float: left;
+}
+
+.card2 {
+  background-color:rgba(255, 0, 0, 0);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(71, 71, 71);
+    width: 45%;
+    float: right;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+      }
+    }
+    @media (max-width: 768px) {
+      .card2 {
+        width: 100%;
+      }
+    }
+
+    .title{
+      text-align: center;
+      color: cornsilk;
+    }
+
+    .generaltext{
+      color: cornsilk;
+    }
+
+    .card3 {
+      background-color:rgba(255, 0, 0, 0);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgb(71, 71, 71);
+        width: 100%;
+       
+        }
+.context{
+  color: white;
+}
+    
